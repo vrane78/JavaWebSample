@@ -26,7 +26,7 @@ public class HelloTest {
         OutputStream os = new ByteArrayOutputStream();
         PrintStream stream = new PrintStream(os, true);
 
-        Hello hi = new Hello()
+        Hello hi = new Hello();
         hi.sayHello(stream);
 
         assertThat(os.toString(), is(equalTo(String.format("%s%s", Hello.HELLO, System.lineSeparator()))));
