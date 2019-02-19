@@ -36,11 +36,7 @@
 
   <dependencies>   
     <!-- Testing dependencies. -->
-    <dependency>
-    <groupId>com.example</groupId>
-    <artifactId>SampleWebApp</artifactId>
-    <version>0.0.1</version>
-   </dependency>
+    
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
