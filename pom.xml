@@ -35,12 +35,16 @@
 </distributionManagement>
 
   <dependencies>
+    <dependency>
+    <groupId>com.morrislgn.merchandising.common</groupId>
+    <artifactId>test-data-utils</artifactId>
+    <version>0.3b-SNAPSHOT</version>
+</dependency>
     <!-- Testing dependencies. -->
     <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-api</artifactId>
-      <version>${junit.jupiter.version}</version>
-      <scope>test</scope>
+      <groupId>com.example</groupId>
+      <artifactId>SampleWebApp</artifactId>
+      <version>62</version>
     </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
