@@ -33,11 +33,7 @@
         <url>http://52.222.54.108:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
-<dependency>
-  <groupId>com.example</groupId>
-  <artifactId>SampleWebApp</artifactId>
-  <version>72</version>
-</dependency>
+
   <dependencies>   
     <!-- Testing dependencies. -->
     
