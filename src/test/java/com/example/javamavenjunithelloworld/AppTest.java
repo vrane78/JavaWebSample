@@ -26,7 +26,8 @@ public class AppTest {
     void testCalcOne()
     {
         System.out.println("======TEST ONE EXECUTED=======");
-        Assertions.assertEquals( 4 , Calculator.add(2, 2));
+        Calculator c = new Calculator();
+        Assertions.assertEquals( 4 , c.add(2, 2));
     }
      
     @Tag("PROD")
@@ -35,7 +36,8 @@ public class AppTest {
     void testCalcTwo()
     {
         System.out.println("======TEST TWO EXECUTED=======");
-        Assertions.assertEquals( 6 , Calculator.add(2, 4));
+     Calculator c = new Calculator();
+        Assertions.assertEquals( 6 , c.add(2, 4));
     }
      
     @AfterEach
