@@ -49,12 +49,12 @@ public class HelloTest {
     @Test
     public void testIllegalArgumentForHelloTooMuch() {
         Hello hi = new Hello();
-        assertThrows(IllegalArgumentException.class, () -> hi.setTimes(Hello.MAXIMUM_AMOUNT_OF_TIMES + 2));
+        assertThrows(IllegalArgumentException.class, () -> hi.setTimes(Hello.MAXIMUM_AMOUNT_OF_TIMES + 1));
     }
 
     @Test
     public void testIllegalArgumentForHelloNegative() {
         Hello hi = new Hello();
-        assertThrows(IllegalArgumentException.class, () -> hi.setTimes(-2));
+        assertThrows(IllegalArgumentException.class, () -> hi.setTimes(-1));
     }
 }
