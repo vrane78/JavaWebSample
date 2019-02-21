@@ -42,7 +42,7 @@ public class HelloAppTest {
 
     @Test
     public void testBogusArgument() {
-        String[] args = {"bicycle"};
+        String[] args = {"Hello"};
 
         try {
             HelloApp.main(args);
