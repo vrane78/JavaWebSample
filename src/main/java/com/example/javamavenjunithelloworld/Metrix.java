@@ -1,3 +1,4 @@
+package com.example.javamavenjunithelloworld;
 public class Metrix 
 {
 	
