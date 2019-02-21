@@ -42,7 +42,7 @@ public class HelloTest {
         hi.sayHello(stream);
 
         // Does it say "Hello!" three times?
-        String goal = String.format("%1$s%2$s%1$s%2$s%1$s%2$s", Hello.HELLO, System.lineSeparator());
+        String goal = String.format("%1$s%2$s%1$s%2$s", Hello.HELLO, System.lineSeparator());
         assertThat(os.toString(), is(equalTo(goal)));
     }
 
