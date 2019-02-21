@@ -1,3 +1,5 @@
+package com.example.javamavenjunithelloworld;
+
 import static org.junit.Assert.*;
 
 import org.junit.Before;
