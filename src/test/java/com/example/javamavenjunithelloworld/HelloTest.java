@@ -25,7 +25,6 @@ public class HelloTest {
     public void testSayHello() {
         OutputStream os = new ByteArrayOutputStream();
         PrintStream stream = new PrintStream(os, true);
-        Calculator c = new Calculator();
         Hello hi = new Hello();
         hi.sayHello(stream);
 
