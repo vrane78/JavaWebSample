@@ -3,5 +3,23 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>Archetype Created Web Application</display-name>
+  <display-name>Dev Web Application</display-name>
+ <env-entry>
+    <description>DB Connection</description>
+    <env-entry-name>connection</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+   <env-entry-value>jdbc:mariadb://dev.database.us-gov-1.rds.amazonaws.com:3306/devSchema</env-entry-value>
+  </env-entry>
+ <env-entry>
+    <description>DB USER</description>
+    <env-entry-name>dbusername</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+    <env-entry-value>user</env-entry-value>
+  </env-entry>
+  <env-entry>
+    <description>DB USPW</description>
+    <env-entry-name>dbpassword</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+      <env-entry-value>password==</env-entry-value> 
+ </env-entry>
 </web-app>
