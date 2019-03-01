@@ -8,7 +8,9 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
  
- 
+/*These tests ensure the consistency of everything that you do. 
+So you can test everything, every time you change something. 
+*/
 public class AppTest {
      
     @BeforeAll
