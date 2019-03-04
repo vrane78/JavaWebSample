@@ -29,7 +29,7 @@ public class AppTest {
     {
         System.out.println("======TEST ONE EXECUTED=======");
         Calculator c = new Calculator();
-        Assertions.assertEquals( 4 , c.add(2, 2));
+        Assertions.assertEquals( 4 , c.add(2, 22));
     }
      
     @Tag("PROD")    
