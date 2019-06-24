@@ -38,7 +38,7 @@ public class AppTest {
     {
         System.out.println("======TEST TWO EXECUTED=======");
      Calculator c = new Calculator();
-        Assertions.assertEquals( 6 , c.add(2, 4));
+        Assertions.assertEquals( 6 , c.add(2, 6));
     }
      
     @AfterEach
